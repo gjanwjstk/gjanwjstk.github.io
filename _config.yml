@@ -1,3 +1,6 @@
+remote_theme: "mmistakes/so-simple-theme@3.2.0"
+
+
 # Site settings
 title: 이거시 타이틀?
 email: moasa11@naver.com
