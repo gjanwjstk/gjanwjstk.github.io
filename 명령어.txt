@@ -1,0 +1,2 @@
+bundle exec jekyll serve
+Jekyll 서버를 로컬에서 실행
