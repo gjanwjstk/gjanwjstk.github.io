@@ -1,42 +1,29 @@
----
-title: 테스트
-author: cotes
-date: 2019-08-11 00:34:00 +0800
-categories: [Blogging, Tutorial]
-tags: [favicon]
----
+   ---
+   title: 첫 번째 포스트    # 포스트 제목
+   date: 2024-03-19 14:00:00 +0900    # 작성 시간
+   categories: [블로그, 일상]    # 카테고리
+   tags: [jekyll, github]       # 태그
+   pin: false    # 상단 고정 여부
+   math: false   # 수식 사용 여부
+   mermaid: false    # 다이어그램 사용 여부
+   image: /path/to/image    # 대표 이미지 (선택사항)
+   ---
+   여기서부터 포스트 내용을 작성합니다.
 
-![Desktop View](/posts/Image/0023.png){: width="512" height="512" }
+   # 제목 1
+   ## 제목 2
+   ### 제목 3
 
+   - 리스트 항목
+   - 또 다른 항목
+     - 들여쓰기된 항목
 
+   1. 번호가 있는 리스트
+   2. 두 번째 항목
 
+   **굵은 글씨**
+   *기울임체*
 
-The [favicons](https://www.favicon-generator.org/about/) of [**Chirpy**](https://github.com/cotes2020/jekyll-theme-chirpy/) are placed in the directory `assets/img/favicons/`{: .filepath}. You may want to replace them with your own. The following sections will guide you to create and replace the default favicons.
+   [링크 텍스트](링크주소)
 
-## Generate the favicon
-
-Prepare a square image (PNG, JPG, or SVG) with a size of 512x512 or more, and then go to the online tool [**Real Favicon Generator**](https://realfavicongenerator.net/) and click the button <kbd>Select your Favicon image</kbd> to upload your image file.
-
-In the next step, the webpage will show all usage scenarios. You can keep the default options, scroll to the bottom of the page, and click the button <kbd>Generate your Favicons and HTML code</kbd> to generate the favicon.
-
-## Download & Replace
-
-Download the generated package, unzip and delete the following two from the extracted files:
-
-- `browserconfig.xml`{: .filepath}
-- `site.webmanifest`{: .filepath}
-
-And then copy the remaining image files (`.PNG`{: .filepath} and `.ICO`{: .filepath}) to cover the original files in the directory `assets/img/favicons/`{: .filepath} of your Jekyll site. If your Jekyll site doesn't have this directory yet, just create one.
-
-The following table will help you understand the changes to the favicon files:
-
-| File(s)             | From Online Tool                  | From Chirpy |
-|---------------------|:---------------------------------:|:-----------:|
-| `*.PNG`             | ✓                                 | ✗           |
-| `*.ICO`             | ✓                                 | ✗           |
-
-<!-- markdownlint-disable-next-line -->
->  ✓ means keep, ✗ means delete.
-{: .prompt-info }
-
-The next time you build the site, the favicon will be replaced with a customized edition.
+   ![이미지 설명](/assets/img/0023.jpg)

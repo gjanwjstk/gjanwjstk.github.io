@@ -98,7 +98,7 @@ theme_mode: # [light | dark]
 cdn: "https://chirpy-img.netlify.app"
 
 # the avatar on sidebar, support local or CORS resources
-avatar: "/commons/avatar.jpg"
+avatar: "/assets/img/favicons/android-chrome-512x512.png"
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
@@ -224,3 +224,17 @@ jekyll-archives:
   permalinks:
     tag: /tags/:name/
     category: /categories/:name/
+
+plugins:
+  - jekyll-archives
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+
+# Feed 설정 추가
+feed:
+  path: feed.xml    # feed 파일 경로 지정
+  posts_limit: 20   # feed에 포함할 최근 포스트 수
+  excerpt_only: true    # 전체 내용 대신 발췌문만 포함

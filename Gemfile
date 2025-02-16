@@ -12,5 +12,14 @@ platforms :mingw, :x64_mingw, :mswin, :jruby do
 end
 
 gem "wdm", "~> 0.2.0", :platforms => [:mingw, :x64_mingw, :mswin]
-gem 'jekyll-admin', group: :jekyll_plugins
 gem 'webrick'
+gem 'sinatra'
+
+group :jekyll_plugins do
+  gem 'jekyll-archives'
+  gem 'jekyll-paginate'
+  gem 'jekyll-sitemap'
+  gem 'jekyll-gist'
+  gem 'jekyll-feed'
+  gem 'jemoji'
+end
