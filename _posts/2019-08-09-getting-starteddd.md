@@ -6,7 +6,7 @@ categories: [Blogging, Tutorial]
 tags: [favicon]
 ---
 
-![Desktop View](/posts/Image/0023.png){: width="3840" height="2160" }
+![Desktop View](/posts/Image/0023.png){: width="512" height="512" }
 
 
 
